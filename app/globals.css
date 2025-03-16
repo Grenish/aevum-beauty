@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Black Mango Variable";
+  src: url("./fonts/BlackMangoVariable.woff2") format("woff2"),
+    url("./fonts/BlackMangoVariable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.blackMango {
+  font-family: "Black Mango Variable";
+}
