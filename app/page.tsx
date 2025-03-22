@@ -1,7 +1,17 @@
+import Bestsellers from "@/components/bestsellers";
+import Hero from "@/components/hero";
+import CookieConsent from "@/components/cookie-consent";
+import AboutUs from "@/components/about-us";
+import Testimonials from "@/components/testimonials";
+
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen">
-      <h2 className="text-5xl blackMango font-extrabold">Aevum Beauty</h2>
-    </div>
+    <>
+      <Hero />
+      <Bestsellers />
+      <CookieConsent />
+      <AboutUs />
+      <Testimonials />
+    </>
   );
 }
